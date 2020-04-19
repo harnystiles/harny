@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(IMG-20200329-WA0089.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ h1 {
+  color: chocolate;
+  font-size: 3rem;
+  font-weight: 900;
+ }
+
+ hr {
+   border-color: darkmagenta;
+   border-width:2px;
+   max-width: 65px;
+ }
+
+ .buffer {
+   height:20rem;
+ }
+
+
+ .btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 300px;
+}
+
+
+ .btn-primary {
+  background-color: darkmagenta;
+  border-color: darkmagenta;
+}
+
+.btn-primary:hover {
+  background-color: darkslategray;
+  border-color: darkslategray;
+  border-width: 5px;
+ }
+
+
+.btn-xl {
+  padding: 0.5rem 0.5rem;
+}
